@@ -42,7 +42,13 @@ body {
     border-bottom: 1px solid #ddd;
     font-size: 30px;
   }
-  
+
+  sub {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+  }
   
   
   nav ul {
@@ -174,5 +180,10 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  
+
+  .logotabla {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+  }
   

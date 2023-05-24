@@ -3,187 +3,187 @@ body {
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     font-family: Arial, sans-serif; /* Fuente principal */
-  }
-  
-  /* Estilo para el encabezado de la página */
-  header {
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+    line-height: 1.5; /* Espaciado de línea de 1.5 */
+}
+
+/* Estilo para el encabezado de la página */
+header {
     background-color: #f6d617; /* Fondo amarillo */
     height: 60px; /* Altura de 60 píxeles */
     padding: 10px; /* Relleno interno de 10 píxeles */
-  }
-  
-  /* Estilo para la barra de navegación */
-  nav {
-    float: left; /* Alinear a la derecha */
-  }
+}
 
-  .logo {
-    float: left;
-    max-width: 25mm;
-    margin-top: 1mm;
-    margin-right: 20px;
-  }
+/* Estilo para la barra de navegación */
+nav {
+    float: left; /* Alinear a la izquierda */
+}
 
-  .boton-regresar {
+.logo {
     float: left;
     max-width: 20mm;
     margin-top: 1mm;
-    margin-left: 50px;
-  }
+    margin-right: 10px;
+}
 
-  table {
+.boton-regresar {
+    float: left;
+    max-width: 15mm;
+    margin-top: 1mm;
+    margin-left: 20px;
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-    font-size: 30px;
-  }
+    font-size: 12px; /* Tamaño de fuente de 12 píxeles */
+}
 
-  sub {
+th, td {
     text-align: left;
-    padding: 8px;
+    padding: 6px;
     border-bottom: 1px solid #ddd;
-    font-size: 15px;
-  }
-  
-  
-  nav ul {
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+}
+
+sub {
+    text-align: left;
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+    font-size: 10px; /* Tamaño de fuente de 10 píxeles */
+}
+
+nav ul {
     list-style: none; /* Eliminar la lista de viñetas */
-    margin: 20; /* Sin margen */
+    margin: 0; /* Sin margen */
     padding: 0; /* Sin relleno */
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline-block; /* Mostrar en línea */
-    margin-top: 10px;
-    margin-left: 10px; /* Margen a la izquierda de 20 píxeles */
-  }
-  
-  nav li a {
+    margin-top: 5px;
+    margin-left: 5px; /* Margen a la izquierda de 5 píxeles */
+}
+
+nav li a {
     color: #000000; /* Texto negro */
     text-decoration: none; /* Sin subrayado */
-  }
-  
-  nav li a:hover {
+    font-size: 12px; /* Tamaño de fuente de 12 píxeles */
+}
+
+nav li a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
-  }
-  
-  /* Estilo para el contenido principal */
-  main {
-    margin: 30px auto; /* Margen superior e inferior de 30 píxeles, centrado horizontalmente */
+}
+
+/* Estilo para el contenido principal */
+main {
+    margin: 20px auto; /* Margen superior e inferior de 20 píxeles, centrado horizontalmente */
     max-width: 600px; /* Ancho máximo de 600 píxeles */
-  }
-  
-  main h2 {
+}
+
+main h2 {
     color: #000000; /* Texto negro */
-    font-size: 36px; /* Tamaño de fuente de 36 píxeles */
+    font-size: 24px; /* Tamaño de fuente de 24 píxeles */
     font-weight: bold; /* Fuente en negrita */
-    margin-bottom: 20px; /* Margen inferior de 20 píxeles */
-    margin-left: 0px;
-  }
-  
-  main p {
-    font-size: 16px; /* Tamaño de fuente de 20 píxeles */
-    line-height: 1.5; /* Espaciado de línea de 1.5 */
-    margin-bottom: 20px; /* Margen inferior de 30 píxeles */
-  }
-  
-  main ul {
-    list-style: bold; /* Eliminar la lista de viñetas */
-    margin: 20px; /* Sin margen */
-    margin-top: 30px;
-    padding: 0; /* Sin relleno */
-  }
-  
-  main li {
     margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+}
+
+main p {
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+    margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+}
+
+main ul {
+    list-style: none; /* Eliminar la lista de viñetas */
+    margin: 10px; /* Sin margen */
+    margin-top: 15px;
+    padding: 0; /* Sin relleno */
+}
+
+main li {
+    margin-bottom: 5px; /* Margen inferior de 5 píxeles */
     color: rgb(0, 0, 0);
-  }
-  
-  main li a {
+}
+
+main li a {
     color: #f6d617; /* Texto negro */
     text-decoration: none; /* Sin subrayado */
-    font-size: 24px; /* Tamaño de fuente de 24 píxeles */
+    font-size: 16px; /* Tamaño de fuente de 16 píxeles */
     background-color: gray;
-  }
-  
-  main li a:hover {
+}
+
+main li a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
-  }
-  
-  /* Estilo para el pie de página */
-  footer {
+}
+
+/* Estilo para el pie de página */
+footer {
     background-color: #000000; /* Fondo negro */
     color: #ffffff; /* Texto blanco */
-    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
+    font-size: 12px; /* Tamaño de fuente de 12 píxeles */
     padding: 10px; /* Relleno interno de 10 píxeles */
     text-align: center; /* Alinear al centro */
-    margin-top: 200px;
-  }
+    margin-top: 20px;
+}
 
-  /* Estilo para el formulario de inicio de sesión */
+/* Estilo para el formulario de inicio de sesión */
 .login-form {
-    width: 400px;
+    width: 300px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-  }
-  
-  .login-form label,
-  .login-form input {
+}
+
+.login-form label,
+.login-form input {
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form label {
     font-weight: bold;
-  }
-  
-  .login-form input[type="text"],
-  .login-form input[type="password"] {
-    padding: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 6px;
     border: 1px solid #ccc;
     border-radius: 3px;
     box-shadow: none;
-  }
-  
-  .login-form input[type="submit"] {
+}
+
+.login-form input[type="submit"] {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     border: none;
     border-radius: 3px;
     background-color: #4CAF50;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px; /* Tamaño de fuente de 14 píxeles */
     cursor: pointer;
-  }
-  
-  .login-form input[type="submit"]:hover {
+}
+
+.login-form input[type="submit"]:hover {
     background-color: #3e8e41;
-  }
-  
-  /* Estilo para la página de inicio de sesión */
-  body {
+}
+
+/* Estilo para la página de inicio de sesión */
+body {
     background-color: #eee;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-  }
+    padding: 10px;
+}
 
-  .logotabla {
-    width: 200px;
+.logotabla {
+    width: 150px;
     height: auto;
     max-width: 100%;
-  }
-  
+}
